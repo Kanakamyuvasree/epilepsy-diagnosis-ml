@@ -1,2 +1,2 @@
-def predict(data):
-    return "Epileptic"
+def predict(model, data):
+    return model.predict(data)
